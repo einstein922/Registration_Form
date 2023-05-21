@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading">Registration Form</div>
+    <div class="form-details">
+      <form>
+        <label for="nameInput" class="">
+          Name <br />
+          <input type="text" class="input" /> </label
+        ><br />
+        <label for="dobInput">
+          DOB <br />
+          <input type="date" class="input" /> </label
+        ><br />
+        <label for="emailInput"
+          >Email <br />
+          <input type="email" class="input" id="email" /> </label
+        ><br />
+
+        <br />
+        <label for="Q1">
+          Please select your age: <br />
+          <input type="radio" id="age1" name="age" value="30" />
+          <label for="age1">0 - 30</label><br />
+          <input type="radio" id="age2" name="age" value="60" />
+          <label for="age2">31 - 60</label><br />
+          <input type="radio" id="age3" name="age" value="100" />
+          <label for="age3">61 - 100</label><br /> </label
+        ><br />
+        <label for="Q2">
+          Select your Nationality. <br />
+          <select name="cntry" id="cntry">
+            <option>India</option>
+            <option>Australia</option>
+            <option>USA</option>
+            <option>China</option>
+            <option>None of the above</option>
+          </select>
+          <br /> </label
+        ><br />
+        <label for="Q3">
+            At what time you are filling this form?
+          <input type="time" class="input">
+        <label for="Q4">
+          Do you agree to our Terms of Service
+          <input type="checkbox" class="input" id="BG" />
+          
+        </label>
+
+        <button type="Submit" id="button" class="button">Submit</button>
+      </form>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
